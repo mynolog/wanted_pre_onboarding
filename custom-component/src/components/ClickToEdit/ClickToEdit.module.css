@@ -1,0 +1,24 @@
+.clickToEditContainer {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.inputBlock.active {
+  margin-bottom: 40px;
+}
+
+.inputBlock {
+  margin-bottom: 40px;
+  display: flex;
+}
+
+.inputBlock .disabled {
+  width: 200px;
+  height: 35px;
+  border: 1px solid black;
+  margin-left: 20px;
+}

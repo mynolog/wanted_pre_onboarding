@@ -1,17 +1,12 @@
-import {
-  AutoComplete,
-  ClickToEdit,
-  Modal,
-  Tab,
-  Tag,
-  Toggle,
-} from './components'
+import AppRouter from './routes/AppRouter'
+import Header from './components/Partials/Header/Header'
 import styles from './App.module.css'
 
 function App() {
   return (
     <div className={styles.App}>
-      <Toggle />
+      <Header />
+      <AppRouter />
     </div>
   )
 }
