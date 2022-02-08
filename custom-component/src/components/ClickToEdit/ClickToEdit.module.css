@@ -11,14 +11,39 @@
   margin-bottom: 40px;
 }
 
+.inputBlock input {
+  padding: 5px 8px;
+  border: none;
+}
+.inputBlock input:focus {
+  outline: none;
+  background-color: #c5c5c5;
+  border-radius: 20px;
+  transition: 0.3s ease-in;
+  color: black;
+  font-weight: bold;
+}
+
 .inputBlock {
   margin-bottom: 40px;
   display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.inputBlock .disabled {
-  width: 200px;
-  height: 35px;
-  border: 1px solid black;
-  margin-left: 20px;
+.inputBlock div {
+  width: 150px;
+  height: 22px;
+  background-color: aliceblue;
+  border-radius: 20px;
+  font-size: 0.85rem;
+  line-height: 1.6rem;
+  text-indent: 5px;
+  transition: 0.3s ease;
+  font-weight: bold;
+  padding: 5px 3px;
+}
+
+.inputLabel {
+  margin-right: 5px;
 }
