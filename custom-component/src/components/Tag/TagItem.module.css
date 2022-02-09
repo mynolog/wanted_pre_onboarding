@@ -1,0 +1,16 @@
+.itemBox {
+  background-color: #4900ce;
+  color: #fff;
+  padding: 10px 12px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.deleteButton {
+  margin-left: 10px;
+  border: none;
+  border-radius: 50%;
+  color: #4900ce;
+  cursor: pointer;
+}

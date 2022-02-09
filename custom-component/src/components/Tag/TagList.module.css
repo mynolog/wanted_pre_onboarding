@@ -1,0 +1,9 @@
+.tagList {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+}
+
+.tagItem {
+  margin-right: 10px;
+}
