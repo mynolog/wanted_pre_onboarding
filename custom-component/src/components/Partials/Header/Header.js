@@ -7,8 +7,8 @@ function Header() {
     <header className={styles.header}>
       <nav>
         <ul className={styles.headerList}>
-          {navList.map((nav) => (
-            <li className={styles.headerListItem}>
+          {navList.map((nav, index) => (
+            <li className={styles.headerListItem} key={index}>
               <NavLink className={styles.headerLink} to={nav.url}>
                 {nav.title}
               </NavLink>
