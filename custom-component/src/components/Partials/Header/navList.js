@@ -4,10 +4,6 @@ export const navList = [
     url: '/',
   },
   {
-    title: 'Auto Complete',
-    url: '/auto-complete',
-  },
-  {
     title: 'Modal',
     url: '/modal',
   },

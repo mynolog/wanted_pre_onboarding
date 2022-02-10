@@ -12,7 +12,7 @@
 
 - [x] Toggle
 - [x] Modal
-- [ ] Tab
+- [x] Tab
 - [x] Tag
 - [ ] AutoComplete
 - [x] ClickToEdit
