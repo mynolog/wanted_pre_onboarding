@@ -23,7 +23,7 @@ function Tag() {
     setTag(value)
   }
   const onSubmit = (event) => {
-    if (event.key === 'Enter') {
+    if (event.key === 'Enter' && tag.length > 0) {
       let nextId = tagList.length
       const newTagItem = {
         id: nextId,
