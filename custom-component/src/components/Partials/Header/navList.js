@@ -1,22 +1,24 @@
+import { BASE } from '../../../routes/base'
+
 export const navList = [
   {
     title: 'Toggle',
-    url: '/',
+    url: BASE + '/',
   },
   {
     title: 'Modal',
-    url: '/modal',
+    url: BASE + '/modal',
   },
   {
     title: 'Tab',
-    url: '/tab',
+    url: BASE + '/tab',
   },
   {
     title: 'Tag',
-    url: '/Tag',
+    url: BASE + '/tag',
   },
   {
     title: 'Click To Edit',
-    url: '/click-to-edit',
+    url: BASE + '/click-to-edit',
   },
 ]
