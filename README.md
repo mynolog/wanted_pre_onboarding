@@ -2,6 +2,12 @@
 
 원티드 프리 온보딩 코스 선발 과제
 
+## 📱 배포
+
+gh-pages <br />
+
+### 👉 [페이지 바로가기](https://minholeelog.github.io/wanted_pre_onboarding/)
+
 ## 💻 사용 기술
 
 - React
