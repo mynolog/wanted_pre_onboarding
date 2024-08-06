@@ -6,7 +6,7 @@
 
 gh-pages <br />
 
-### 👉 [페이지 바로가기](https://minholeelog.github.io/wanted_pre_onboarding/)
+### 👉 [페이지 바로가기](https://mynolog.github.io/wanted_pre_onboarding/)
 
 ## 💻 사용 기술
 
